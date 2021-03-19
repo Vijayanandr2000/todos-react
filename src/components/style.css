@@ -1,0 +1,192 @@
+header {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+section input {
+  width: 500px;
+  height: 30px;
+  font-size: large;
+  margin-top: 50px;
+  margin-left: 60px;
+  padding-left: 15px;
+}
+section button {
+  width: 100px;
+  height: 36px;
+  margin-left: 10px;
+  font-size: large;
+  background-color: rgb(40, 115, 255);
+  color: rgb(245, 245, 245);
+  border-radius: 5px;
+  border: thin;
+}
+ul {
+  list-style: none;
+  /* display: flex; */
+}
+ul li {
+  display: inline-flex;
+}
+.list input {
+  border-radius: 10px;
+  width: 450px;
+  height: 30px;
+  font-size: large;
+  padding-left: 15px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px thin rgb(15, 85, 30);
+  color: rgb(68, 0, 0);
+}
+li button {
+  margin-right: 5px;
+  font-size: large;
+  background-color: rgb(75, 74, 74);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+@media only screen and (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  section input {
+    width: 240px;
+    height: 30px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+  }
+  section button {
+    width: 50px;
+    height: 36px;
+    margin-left: 2px;
+    font-size: small;
+    background-color: rgb(40, 115, 255);
+    color: rgb(245, 245, 245);
+    border-radius: 2px;
+    border: thin;
+  }
+  ul {
+    list-style: none;
+    /* display: flex; */
+  }
+  ul li {
+    display: inline-flex;
+  }
+  .list input {
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: small;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border: 1px thin rgb(15, 85, 30);
+    color: rgb(68, 0, 0);
+  }
+  li button {
+    margin-left: 1px;
+    font-size: x-small;
+    background-color: rgb(75, 74, 74);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.3;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  section input {
+    width: 290px;
+    height: 30px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+  }
+  section button {
+    width: 50px;
+    height: 36px;
+    margin-left: 2px;
+    font-size: small;
+    background-color: rgb(40, 115, 255);
+    color: rgb(245, 245, 245);
+    border-radius: 2px;
+    border: thin;
+  }
+  ul {
+    list-style: none;
+    /* display: flex; */
+  }
+  ul li {
+    display: inline-flex;
+  }
+  .list input {
+    border-radius: 5px;
+    width: 260px;
+    height: 30px;
+    font-size: small;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border: 1px thin rgb(15, 85, 30);
+    color: rgb(68, 0, 0);
+  }
+  li button {
+    margin-left: 1px;
+    font-size: x-small;
+    background-color: rgb(75, 74, 74);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.3;
+  }
+}
